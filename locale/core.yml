@@ -254,6 +254,7 @@ core:
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: 用户名 或 邮箱
+      remember_me_label: => core.ref.remember_me
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -460,6 +461,7 @@ core:
     username: 用户名
     write_a_reply: 说点什么...
     you: 你                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    remember_me: 记住我
 
    ##
    # GROUP NAMES - These keys are translated at the back end.
@@ -475,3 +477,6 @@ core:
     members: 用户组
     mod: 管理员
     mods: 管理组
+
+  api:
+    invalid_username_message: => validation.custom.username.regex
