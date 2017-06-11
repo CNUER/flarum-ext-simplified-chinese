@@ -43,10 +43,10 @@ core:
       home_page_heading: 站点首页
       home_page_text: "选择一个页面作为站点首页。如果输入了自定义值，请使用基于站点根目录的相对路径。"
       saved_message: 你的更改已保存
+      show_language_selector_label: 显示语言选择框
       submit_button: => core.ref.save_changes
       welcome_banner_heading: 欢迎横幅
       welcome_banner_text: 输入一段文字作为横幅，它将显示在站点的“所有话题”页面中。
-      show_language_selector_label: 显示语言选择框
 
     # These translations are used in the Dashboard page.
     dashboard:
