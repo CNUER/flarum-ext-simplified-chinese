@@ -149,6 +149,7 @@ core:
       start_discussions_label: 发布话题
       view_discussions_label: 浏览话题
       view_post_ips_label: 查看话题的发布 IP
+      view_user_list_label: 搜索用户
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
